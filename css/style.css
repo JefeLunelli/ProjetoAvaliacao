@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+.container1{
+    position:relative;
+    background-color: aqua;
+
+}
+.imagemLeft{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 5px;
+}
+
+.imagemRight{
+    position: relative;
+    width: 100px;
+    height: 100px;
+
+}
+
+.container2{
+    position:relative;
+    margin-top: 60px;
+    background-color: yellowgreen;
+
+}
+.imagemLeftBotton{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 5px;
+    
+}
+
+.imagemRightBotton{
+    position: relative;
+    width: 100px;
+    height: 100px;
+
+}
+
+.botao-cadastrar {
+    background-color: rgb(0, 128, 0); 
+    color: white;
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px;
+    margin-right: 10px; 
+}
+
+.botao-limpar {
+    background-color: rgb(255, 0, 0); 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px;
+}
+
+#Cadastro{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+#Form{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.lista {
+    list-style-type: decimal 1,2,3,4; 
+    list-style-position: inside;
+    text-align: center;
+}
+
+
+.lista li {
+    font-size: 18px; 
+    margin-bottom: 10px; 
+    color: #333; 
+}
+
+#hover-paragraph:hover{
+    background: linear-gradient(45deg,#ff0000,#ff7300,#fffb00,#48ff00,#00ffd5,#002bff,#7a00ff,#ff00c8,#ff0000);
+   
+}
+@keyframes animacao {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.animacao{
+    animation: animacao 2s infinite;
+}
+
